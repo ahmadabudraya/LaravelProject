@@ -1,0 +1,343 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff !important;
+    z-index: 0;
+}
+
+::selection{
+  color: #000 !important;
+  background-color: #ededff;
+}
+
+::-webkit-scrollbar-track{
+	background:rgba(170,170,170,0.8);
+}
+
+::-webkit-scrollbar-thumb{
+	background:#343a40;
+	border-radius:5px;
+}
+::-webkit-scrollbar{
+	width:12px;
+}
+
+.container{
+    margin-top: 20px;
+}
+.clear-fix{clear: both;}
+.border-dotted{
+    border-bottom: 1px dotted #d4cbcb;
+    margin: 10px 0;
+}
+header .main-info{margin-top: 70px;}
+header .main-info .left-blk{
+    float: left;
+    width: 69%;
+}
+header .main-info h1{
+    font-weight: bold;
+}
+
+header .main-info p{
+    color:#008CFF;
+    font-size: 22px;
+}
+header .main-info .fa-ul{
+    width: 100%;
+}
+header .main-info .fa-ul li{
+    width: 50%;
+    margin-bottom: 3px;
+    float: left;
+}
+header .main-info .fa-ul li .fa{
+    color: #008CFF;
+}
+header .main-info .fa-ul li span{
+    color:#B5B5B5;
+}
+
+header .main-info .profile-pic{
+    float: left;
+    width: 24%;
+    overflow: hidden;
+    text-align: center;
+}
+
+header .main-info .profile-pic img{
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+}
+.education{
+    float:left;
+    margin-top: 20px;
+    width: 45%;
+}
+.education h2,.skills h2{
+    font-weight: bold;
+    font-size: 35px;
+    border-bottom:3px solid;
+    letter-spacing: 2px;
+}
+
+.education .major{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 11px;
+    display: inline-block;
+}
+.education .uni{
+    font-size: 16px;
+    color: #008CFF;
+    margin-bottom: 3px;
+}
+.education span{
+    font-size: 15px;
+}
+.skills{
+    float: right;
+    margin-top: 20px;
+    width: 45%;
+}
+
+.skills span{
+    padding: 2px 13px;
+    border: 1px solid #008CFF;
+    color: #008CFF;
+    border-radius: 7px;
+    font-size: 20px;
+    float: left;
+    margin: 3px;
+}
+
+.skills span:hover{
+    background: #008CFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.exp{
+    float:left;
+    margin-top: 30px;
+    width: 45%;
+}
+
+.exp .title{
+    font-size: 26px;
+    padding: 9px 0px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.exp .cname{
+    color: #008CFF;
+    margin-bottom: 4px;
+}
+
+.exp span{
+    font-size: 15px;
+}
+
+.exp .desc{
+    padding-top: 6px;
+}
+
+.langs{
+    float: right;
+    overflow: hidden;
+    margin-top: 30px;
+    width: 45%;
+}
+
+.exp h2,.langs h2{
+    font-weight: bold;
+    font-size: 35px;
+    border-bottom:3px solid;
+    letter-spacing: 2px;
+}
+
+.langs .lg{
+    font-size: 28px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+
+
+footer{
+    background: #191919;
+    margin-top: 35px;
+    text-align: center;
+    padding: 1px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+footer p{
+    color:#999;
+    margin: 10px;
+}
+
+
+/*======== Start button add block =========*/
+.pencil-edit{
+    float: right;
+    color:#0084bf;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    margin-top: 17px;
+}
+.plus-add{
+    float: right;
+}
+.plus-add .fa-plus{
+    color:#0084bf;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/*======== End button add block =========*/
+
+
+
+
+/****** Start frame add block *******/
+
+body{
+    //font-family: 'Ubuntu', sans-serif;
+}
+label{
+    margin-top: 14px;
+    margin-bottom: 0px;
+}  
+.fa-plus-circle{
+    color: #267DDF;
+    display: inline-block;
+    font-size: 40px;
+    cursor: pointer;
+    float: left;
+    margin-left: 6px;
+}
+.tags .tag-span{
+    padding: 5px 8px;
+    background: #ccc;
+    margin: 8px 5px 5px 0px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.tags .tag-span i{
+    cursor: pointer;
+}
+.add-edu > h1,.add-exp > h1,
+.add-skill > h1,.add-lang > h1{
+    border-bottom: 1px solid;
+    width: 40%;
+}
+.add-skill #input-skills{
+    width: 64%;
+    display: inline-block;
+    float: left;
+}
+.add-blk{
+    overflow: hidden;
+    float: right;
+    margin: 15px 0px;
+}
+
+.add-blk .fa-plus{
+    float: right;
+    font-size: 29px;
+    color:#e0e0e0;
+    margin-right: 4px;
+}
+.add-blk span{
+    float: right;
+    margin: 2px 7px;
+    font-weight: bold;
+}
+.add-lang .new-lang{margin-bottom: 30px}
+.add-border{
+    margin: 30px auto;
+    width: 60%;
+    text-align: center;
+}
+.add-border span{
+    height: 1px;
+    width: 200px;
+    background: #00B7C2;
+    display: inline-block;
+}
+.add-border h2{
+    display: inline-block;
+    font-size: 21p;
+    padding: 0px 11px;
+    margin-top: 10px;
+    position: relative;
+    top: 7px;
+}
+
+/*********/
+
+.btn-sub{
+    position: relative;
+    margin: 37px auto;
+    display: block;
+    border-radius:5px;
+    border: none;
+    background-color: #007bff;
+    color:#fff;
+    font-size: 23px;
+    padding: 6px 20px;
+    box-shadow: 0 5px 0 #345880;
+}
+.btn-sub:hover{
+    top: 2px;
+    box-shadow: 0 3px 0 #345880;
+    cursor: pointer;
+}
+.btn-sub:active{
+    top:5px;
+    outline: 0;
+    box-shadow: none;
+}
+
+/*********/
+
+.frame-blk{
+    position: absolute;
+    width: 445px;
+    background-color: #fff;
+    padding: 13px 19px;
+    z-index: 2;
+    border-radius: 3px;
+    left: 33%;
+    top: -140%;
+    display: none;
+}
+.frame-blk h1{
+    text-align: center;
+}
+.frame-blk .exit{
+    color:#333;
+    font-size: 24px;
+    float: right;
+    position: relative;
+    top: -67px;
+    right: -18px;
+    cursor: pointer;
+}
+
+.frame-blk .col{width: 50%;}
+.full{
+    z-index:1;
+    position:absolute;
+    background-color:rgba(0, 0, 0, 0.89);
+    margin-top: -14px;
+}
+
+
+/****** End frame add block *******/
+
